@@ -1,7 +1,7 @@
 <?php
 $listDiretorio = array_diff(
     scandir('projetos/'),
-    ['.', '..','.git']
+    ['.', '..','.git','.vscode']
 );
 
 //Percorremos todos os itens da nossa lista
