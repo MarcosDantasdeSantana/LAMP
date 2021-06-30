@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>LAMP MYSQL</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<style>
 			.bg-main{
 				background-color: #845EC2;
@@ -19,6 +20,25 @@
 			}
 			a:hover{
 				color: #845EC2;
+			}
+			.btn-primary{
+				background-color: #845EC2;
+				border-color: #845EC2;
+			}
+			.btn-primary:hover{
+				background-color: #005EC2;
+			}
+			.grid {
+				display: grid;
+				gap: 1rem;
+			}
+			@media (min-width:500px){
+				.grid {
+				grid-template-columns: repeat(2, 1fr);
+				align-items: center;
+				margin-right: auto;
+				margin-left: auto;
+				}
 			}
 		</style>
 	</head>
@@ -71,7 +91,25 @@
 								</li>
 								<ul>
 									<li>
-										<a href="/test_db.php">Teste conexão com Base de Dados</a>
+										<img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="">
+										<?php
+
+										$link = mysqli_connect('database', 'root', 'mysql',null);
+
+										if (!$link) {
+											echo "<b class='text-danger'>
+												<i class='bi bi-exclamation-circle-fill'></i> 
+												Erro: Incapaz de conectar no MySQL
+											</b>" . PHP_EOL;
+											echo "Depurando errno: " . mysqli_connect_errno() . PHP_EOL;
+											echo "Depurando error: " . mysqli_connect_error() . PHP_EOL;
+											exit;
+										}
+
+										echo "<b class='text-success'><i class='bi bi-check-circle-fill'> </i>Sucesso</b>" . PHP_EOL;
+
+										mysqli_close($link);
+										?>
 									</li>
 								</ul>
 								
@@ -84,9 +122,9 @@
 						</h3>
 						<hr />
 						<div class="content">
-							<ul>
+							<div class="grid">
 								<?php include('./link.php'); ?>
-							</ul>
+							</div>
 						</div>
 					</div>
 				</div>

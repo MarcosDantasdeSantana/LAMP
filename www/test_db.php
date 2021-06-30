@@ -12,3 +12,4 @@ if (!$link) {
 echo "Sucesso: Uma conexão adequada com o MySQL foi feita! O banco de dados do docker é ótimo." . PHP_EOL;
 
 mysqli_close($link);
+?>

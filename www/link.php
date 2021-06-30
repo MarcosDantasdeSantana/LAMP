@@ -8,6 +8,6 @@ $listDiretorio = array_diff(
 foreach($listDiretorio as $diretorio){
     $isDir = is_dir('projetos/' . $diretorio) ? 'Diretório' : 'Arquivo';
     
-    echo "<li><a href='projetos/".$diretorio."'>".$diretorio."</a> - {$isDir}</li>";
+    echo "<a href='projetos/".$diretorio."' class='btn btn-primary link'> <i class='bi bi-folder-symlink'></i> ".$diretorio." - {$isDir}</a>";
 }
 ?>

@@ -537,3 +537,79 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
 [Tue Jun 22 20:21:36.824647 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
 [Tue Jun 22 20:21:36.824729 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jun 22 21:44:06.557854 2021] [autoindex:error] [pid 29] [client 172.27.0.1:37358] AH01276: Cannot serve directory /var/www/html/projetos/OrphaHelp/admin/connection/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Jun 22 23:19:15.433953 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 00:57:11.711783 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 23 00:57:11.711863 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 23 02:00:39.016866 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 19:18:58.623619 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 23 19:18:58.623702 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 23 20:52:34.663009 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 22:05:03.523062 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 23 22:05:03.523159 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 23 23:38:23.638503 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jun 24 01:12:40.877983 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Thu Jun 24 01:12:40.878069 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jun 24 02:45:04.801293 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jun 24 21:03:29.807387 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Thu Jun 24 21:03:29.807502 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jun 24 23:42:57.452731 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 25 13:04:35.866515 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Fri Jun 25 13:04:35.866620 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Jun 25 16:06:14.610417 2021] [autoindex:error] [pid 33] [client 172.27.0.1:53430] AH01276: Cannot serve directory /var/www/html/projetos/projetoDark/assets/img/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost/projetos/projetoDark/
+[Fri Jun 25 22:39:30.003728 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 25 23:27:30.588364 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Fri Jun 25 23:27:30.588465 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jun 26 01:34:36.675528 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 28 20:12:56.348687 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Mon Jun 28 20:12:56.348787 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Jun 28 21:38:14.636698 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 28 22:25:12.516625 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Mon Jun 28 22:25:12.516722 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Jun 28 23:24:43.492145 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jun 29 01:10:05.308948 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Tue Jun 29 01:10:05.309040 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jun 29 02:11:58.412357 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jun 29 14:13:16.525362 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Tue Jun 29 14:13:16.525451 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jun 29 16:47:01.165496 2021] [core:error] [pid 18] (13)Permission denied: [client 172.27.0.1:58332] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:47:09.334641 2021] [core:error] [pid 21] (13)Permission denied: [client 172.27.0.1:58350] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:47:10.975750 2021] [core:error] [pid 20] (13)Permission denied: [client 172.27.0.1:58346] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:47:22.117566 2021] [core:error] [pid 17] (13)Permission denied: [client 172.27.0.1:58356] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:47:23.599478 2021] [core:error] [pid 17] (13)Permission denied: [client 172.27.0.1:58356] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:51:22.315252 2021] [core:error] [pid 23] (13)Permission denied: [client 172.27.0.1:58652] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:51:28.865791 2021] [core:error] [pid 18] (13)Permission denied: [client 172.27.0.1:58660] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:52:58.518057 2021] [core:error] [pid 20] (13)Permission denied: [client 172.27.0.1:58684] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:53:09.627654 2021] [core:error] [pid 22] (13)Permission denied: [client 172.27.0.1:58694] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:56:02.789772 2021] [core:error] [pid 18] (13)Permission denied: [client 172.27.0.1:58764] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:56:04.721198 2021] [core:error] [pid 23] (13)Permission denied: [client 172.27.0.1:58760] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:57:18.605212 2021] [core:error] [pid 22] (13)Permission denied: [client 172.27.0.1:58790] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:57:22.231606 2021] [core:error] [pid 17] (13)Permission denied: [client 172.27.0.1:58794] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 16:57:23.905549 2021] [core:error] [pid 17] (13)Permission denied: [client 172.27.0.1:58794] AH00132: file permissions deny server access: /var/www/html/projetos/portifolio/assets/img/home.png, referer: http://localhost/projetos/portifolio/
+[Tue Jun 29 20:07:06.670043 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 30 00:13:55.996647 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 30 00:13:55.996732 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 30 00:28:11.138120 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 30 00:31:26.652498 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 30 00:31:26.652598 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 30 00:42:22.930466 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 30 02:32:24.426220 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 30 02:32:24.426407 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jun 30 02:57:27.973344 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 30 14:36:59.662514 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.3 configured -- resuming normal operations
+[Wed Jun 30 14:36:59.662689 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
